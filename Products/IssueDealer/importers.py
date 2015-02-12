@@ -125,7 +125,8 @@ class importers:
         object.index_object()
         for object_ in objects:
             object._import_xml_dump(object_)
-            get_transaction().commit(1)
+            import transaction
+            transaction.commit(1)
 
     def _import_web_page(self, url, out=None, strip_tags=[]):
         data = HTMLTools.html.fetch_webpage(url, out=out)
@@ -149,7 +150,8 @@ class importers:
             id = image_ids[source]
             image.add_image(issue, id=id, file=cStringIO.StringIO(image_[0]))
         issue.contents = page
-        get_transaction().commit()
+        import transaction
+        transaction.commit()
         issue.index_object()
         return issue
 

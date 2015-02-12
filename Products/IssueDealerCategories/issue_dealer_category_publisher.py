@@ -75,7 +75,8 @@ class category_publisher(
         """Edits the publisher."""
         if id and id != self.id:
             self.getParentNode().manage_renameObjects(ids=[self.id], new_ids=[id])
-            get_transaction().commit()
+            import transaction
+            transaction.commit()
         self.title = title
         self.show_path = show_path
         request = REQUEST

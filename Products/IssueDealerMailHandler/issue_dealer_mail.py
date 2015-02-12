@@ -194,7 +194,8 @@ class issue_dealer_mail(
         """Edits the gateway."""
         if id and id != self.id:
             self.getParentNode().manage_renameObjects(ids=[self.id], new_ids=[id])
-            get_transaction().commit()
+            import transaction
+            transaction.commit()
         self.title = title.strip()
         self.skip_me_too = skip_me_too
         self.admin_email = admin_email.strip()

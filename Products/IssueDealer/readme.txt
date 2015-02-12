@@ -7,9 +7,9 @@ What is it?
   tool, a weblog or an outliner.
 
   It also contains an experimental framework for creating content
-  classes through the web, access it via issuedealerinstance/laf
+  classes through the web.
 
-  It has been tested to work with Zope 2.9 - 2.13 but is believed to
+  It has been tested to work with 2.13.22 but is believed to
   work with older versions of Zope as well.
 
 Why have you created it?
@@ -20,34 +20,41 @@ Why have you created it?
   into an advanced (but simple to use!) information management and
   distribution system.
 
+  Some years ago I took it over as a personal project, and since I've
+  spent so much time on it already and it works well for its purpose
+  and that the LAF system is interesting, I'm going to keep updating
+  it. I don't know what the future for Zope 2 will be, but seeing how
+  different systems can survive I wouldn't be surprised if Zope 2 is
+  well maintained 5-10 years down the road.
+
 Why is it free?
 
-  We give it away for free because you get to try it out, and
-  then if you need customizing or hosting of it, that's where
-  we can offer you a service.
+  It started out free, and distributing it under the GPL version 2 is
+  practical, as it is a well-known software license .
 
-  We'd like to start a community around this application eventually,
-  so if you think this is an interesting application, get in touch and
+  I'd like to start a community around this application eventually, so
+  if you think this is an interesting application, get in touch and
   maybe we can do something together.
 
 How are you developing it?
 
-  We're developing this tool 'as we go' and will be adding to it as we
-  figure out what's needed and what's simple; we're not using a specific
-  development process on it yet, we'll start using XP when others find
-  it interesting and join in on the development.
+  The project has recently been moved to GitHub, and will be located
+  there for the forseeable future.  Bug-tracking etc. hasn't been
+  setup, but emails and patches are welcome, as are suggestions on
+  where to manage the project from.
 
 What happens next?
 
   The focus for the 1.0 release is to make the application manage
-  information, the focus for the 2.0 release is (for now) to make the
-  application handle contacts and processes.
+  information, the focus for the 2.0 release is a complete LAF
+  system.
 
 Is it secure?
 
-  Yes and no.  It is has been built to be secure for outsiders, but
-  once someone has access to viewing, adding, editing or something
-  else, you should assume that they can access any part of the system.
+  Yes and no.  It is has been built so that access can be restricted
+  to different features and levels, but once someone has access to
+  viewing, adding, editing or something else, you should assume that
+  they can access any part of the system.
 
 Does it scale?
 
@@ -113,9 +120,5 @@ What are the main features?
         issues easy to work with
 
       - WYSIWYG editing with support for images
-
-TODO:
-
-  - Implement advanced regexp search.  
 
 

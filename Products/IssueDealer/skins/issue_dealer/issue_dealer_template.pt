@@ -438,7 +438,7 @@
 
 <div metal:define-macro="copyright" id="copyright">
 	Powered by <a href="http://issuedealer.com">Issue Dealer</a>,
-	copyright &copy; 2003 - 2012 <a href="http://www.blogologue.com">Morten W. Petersen</a><br />
+	copyright &copy; 2003 - 2015 <a href="http://www.blogologue.com">Morten W. Petersen</a><br />
 	Built on top of <a href="http://www.zope.org">Zope</a>
 </div>
 

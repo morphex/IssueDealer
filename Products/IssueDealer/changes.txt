@@ -1,3 +1,15 @@
+0.9.132 (2015-0212)
+
+  - Making the IssueDealer Zope 2.13.22 compatible.
+
+  - Fixing bug where atom feed failed.
+
+  - Fixing bug where creating an IssueDealer instance failed.
+
+  - Updated readme.
+
+  - Updated copyright time.
+
 0.9.131 (2012-08-22)
 
   - Fixing bug where KeyError was raised under update_catalog

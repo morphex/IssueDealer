@@ -226,7 +226,7 @@ class local_weblog_publisher(
         if request.get('QUERY_STRING', ''):
             return self.get_weblog_url() + '/atom.xml' + '?' + escape(request['QUERY_STRING'])
         else:
-            return self.get_weblog_url + '/atom.xml'
+            return self.get_weblog_url() + '/atom.xml'
 
     def render_subscribers(self):
         """Renders the subscribers."""
@@ -465,7 +465,8 @@ URL: %s
         """Edits the publisher."""
         if id and id != self.id:
             self.getParentNode().manage_renameObjects(ids=[self.id], new_ids=[id])
-            get_transaction().commit()
+            import transaction
+            transaction.commit()
         self.title = title
         self.show_number_of_issues = show_number_of_issues
         self.show_number_of_issues_in_sidebar = show_number_of_issues_in_sidebar

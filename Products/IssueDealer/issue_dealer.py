@@ -121,7 +121,7 @@ class issue_dealer(
         self._setObject('laf', laf.laf('laf'))
 
     def manage_afterAdd(self, *a, **k):
-        self.setup_laf(self)
+        self.setup_laf()
 
     security.declareProtected(permissions.view_issue_dealer, 'has_absolute_url')
     def has_absolute_url(self):

@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.9.131'
+version = '0.9.132'
 
 setup(name='Products.IssueDealer',
       version=version,

@@ -32,7 +32,6 @@ Products/IssueDealer/base_tree.py
 Products/IssueDealer/base_utilities.py
 Products/IssueDealer/changes.txt
 Products/IssueDealer/config.py
-Products/IssueDealer/configure.zcml
 Products/IssueDealer/copy_types.py
 Products/IssueDealer/extensions.py
 Products/IssueDealer/functional_tests
