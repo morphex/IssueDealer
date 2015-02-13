@@ -1,4 +1,8 @@
-0.9.132 (2015-0212)
+0.9.133- (2015-02-12)
+
+  - Various fixes to make IssueDealer work.
+
+0.9.132 (2015-02-12)
 
   - Making the IssueDealer Zope 2.13.22 compatible.
 

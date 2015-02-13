@@ -1,12 +1,15 @@
 Metadata-Version: 1.1
 Name: Products.IssueDealer
-Version: 0.9.132
+Version: 0.9.137
 Summary: The Issue Dealer is an application for managing information. It is currently used by organizations and individuals to manage day-to-day tasks and information.
 Home-page: http://issuedealer.com
 Author: Morten W. Petersen
 Author-email: morphex@gmail.com
 License: GPL
-Description: What is it?
+Description: NOTE: I'm currently doing some development and testing via PyPi packages,
+        so things will be flaky for a couple of days.
+        
+        What is it?
         
           The Issue Dealer is a tool for managing issues, currently
           it focuses on the information in, and structuring of, issues.
@@ -130,7 +133,11 @@ Description: What is it?
               - WYSIWYG editing with support for images
         
         
-        0.9.132 (2015-0212)
+        0.9.133- (2015-02-12)
+        
+          - Various fixes to make IssueDealer work.
+        
+        0.9.132 (2015-02-12)
         
           - Making the IssueDealer Zope 2.13.22 compatible.
         

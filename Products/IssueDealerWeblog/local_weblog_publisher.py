@@ -6,7 +6,8 @@ import AccessControl
 from Products import ZCatalog, HTMLTools
 from cgi import escape
 import string
-from DateTime import DateTime, DateTimeZone
+from DateTime import DateTime
+from pytz import all_timezones
 from Products import IssueDealer
 from Products.IssueDealer import session_manager, base, mixins, functions, permissions, id_config
 import subscriber_templates
@@ -344,9 +345,7 @@ class local_weblog_publisher(
     security.declarePublic('get_timezones')
     def get_timezones(self):
        """Returns available timezones."""
-       zones = DateTimeZone._data.keys()
-       zones.sort()
-       return zones
+       return all_timezones
 
     def render_timezone_widget(self):
         """Renders a widget for selecting timezones."""

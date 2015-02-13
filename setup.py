@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.9.132'
+version = '0.9.137'
 
 setup(name='Products.IssueDealer',
       version=version,
@@ -35,6 +35,8 @@ setup(name='Products.IssueDealer',
           'setuptools',
           'zope.structuredtext',
           'Zope2>=2.13.22',
+          'docutils>=0.12',
+          'pytz>=2014.10',
           # -*- Extra requirements: -*-
       ],
       entry_points="""

@@ -1,3 +1,6 @@
+NOTE: I'm currently doing some development and testing via PyPi packages,
+so things will be flaky for a couple of days.
+
 What is it?
 
   The Issue Dealer is a tool for managing issues, currently

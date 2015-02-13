@@ -9,8 +9,8 @@ import string
 # The extra entry in sys.path is needed for
 # the docutils package
 import sys
-sys.path.append(SOFTWARE_HOME + '/Products/IssueDealer')
-sys.path.append(INSTANCE_HOME + '/Products/IssueDealer')
+#sys.path.append(SOFTWARE_HOME + '/Products/IssueDealer')
+#sys.path.append(INSTANCE_HOME + '/Products/IssueDealer')
 from docutils.core import publish_string
 from DateTime import DateTime
 import cStringIO, htmllib, formatter

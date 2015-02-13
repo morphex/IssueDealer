@@ -7,7 +7,7 @@ from Products import ZCatalog
 from Products.IssueDealer import base
 from cgi import escape
 import string
-from DateTime import DateTime, DateTimeZone
+from DateTime import DateTime
 from Products import IssueDealer
 from Products.IssueDealer import session_manager, base, mixins, relation, permissions
 
